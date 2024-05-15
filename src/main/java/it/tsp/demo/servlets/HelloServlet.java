@@ -18,7 +18,7 @@ public class HelloServlet extends HttpServlet{
         
         String nome = req.getParameter("nome");
         String cognome = req.getParameter("cognome");
-
+        
         //genero risposta
         PrintWriter response = resp.getWriter();
         response.println(homeTemplate().formatted(nome +""+cognome));
