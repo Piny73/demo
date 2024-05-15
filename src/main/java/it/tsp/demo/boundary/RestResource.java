@@ -12,8 +12,20 @@
  *
  * SPDX-License-Identifier: EPL-2.0 OR BSD-3-Clause
  ********************************************************************************/
-package it.tsp.demo.resources;
+package it.tsp.demo.boundary;
 
-public record HelloRecord(String text) {
+import it.tsp.demo.entity.HelloRecord;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.core.MediaType;
+import jakarta.ws.rs.Path;
+import jakarta.ws.rs.Produces;
 
+@Path("hello")
+public class RestResource {
+    
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
+    public HelloRecord hello(){
+        return new HelloRecord("Ciao from Jakarta EE");
+    }
 }

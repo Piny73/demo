@@ -1,4 +1,5 @@
-C:\Users\utentepc\Documents\demo\src\main\java\it\tsp\demo\resources\RestResource.java
-C:\Users\utentepc\Documents\demo\src\main\java\it\tsp\demo\resources\HelloRecord.java
+C:\Users\utentepc\Documents\demo\src\main\java\it\tsp\demo\boundary\HelloServlet.java
+C:\Users\utentepc\Documents\demo\src\main\java\it\tsp\demo\entity\HelloRecord.java
 C:\Users\utentepc\Documents\demo\src\main\java\it\tsp\demo\ApplicationConfig.java
-C:\Users\utentepc\Documents\demo\src\main\java\it\tsp\demo\servlets\HelloServlet.java
+C:\Users\utentepc\Documents\demo\src\main\java\it\tsp\demo\control\HelloService.java
+C:\Users\utentepc\Documents\demo\src\main\java\it\tsp\demo\boundary\RestResource.java
