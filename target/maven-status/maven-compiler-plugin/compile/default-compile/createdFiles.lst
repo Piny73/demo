@@ -1,5 +1,8 @@
 it\tsp\demo\boundary\HelloServlet.class
 it\tsp\demo\ApplicationConfig.class
 it\tsp\demo\control\HelloService.class
+it\tsp\demo\Account.class
+it\tsp\demo\boundary\AccountsResource.class
 it\tsp\demo\entity\HelloRecord.class
+it\tsp\demo\boundary\Demo.class
 it\tsp\demo\boundary\RestResource.class
