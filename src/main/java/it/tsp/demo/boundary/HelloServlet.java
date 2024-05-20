@@ -27,7 +27,7 @@ public class HelloServlet extends HttpServlet {
 
         // genero risposta
         PrintWriter response = resp.getWriter();
-        response.println(homeTemplate().formatted(helloService.generateHelloMessage(nome, cognome)));
+        response.println(homeTemplate().formatted(helloService.generateHelloMessage(nome == null ? " ": nome, cognome == null ? " " : cognome)));
         response.flush();
     }
 
